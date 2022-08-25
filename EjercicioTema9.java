@@ -46,25 +46,11 @@ public class EjercicioTema9 {
     }
 }
 
-abstract class Persona_ejercicio9{
+class Persona_ejercicio9{
 
     int edad;
     String nombre;
     int telefono;
-
-    abstract public int getEdad();
-    abstract public void setEdad(int edad);
-
-    abstract public String getNombre();
-    abstract public void setNombre(String nombre);
-
-    abstract public int getTelefono();
-    abstract public void setTelefono(int telefono);
-
-
-}
-
-class Cliente extends Persona_ejercicio9{
 
     public int getEdad(){
         return this.edad;
@@ -90,6 +76,12 @@ class Cliente extends Persona_ejercicio9{
     public void setTelefono(int telefono){
         this.telefono=telefono;
     }
+
+
+
+}
+
+class Cliente extends Persona_ejercicio9{
 
     public int credito;
 
