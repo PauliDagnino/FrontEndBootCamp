@@ -1,0 +1,19 @@
+
+#titulo{
+    color: darkorchid;
+    font-size:30pt;
+}
+
+
+.encabezado{
+    text-transform:uppercase;
+}
+
+
+#elemento-1, #elemento-1-desordenada{
+    color: red;
+}
+
+#elemento-1-desordenada{
+    font-size:2rem;
+}
