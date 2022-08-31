@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    overflow:auto;
+}
+
+.barraizq{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    padding:0.25rem;
+    background-color:darksalmon;
+}
+
+.barrader{
+    display:flex;
+    gap:0.5rem;
+    padding:0.25rem;
+    background-color: cornflowerblue;
+    flex-grow:6;
+}
+
+.item{
+    background-color:white;
+    color:black;
+    padding:0.25rem;
+    width:10rem;
+}
+
+
+
+@media (max-width: 640px){
+   
+    .barraizq{
+        background-color:green;
+        flex-direction: row;
+
+    }
+
+    .container{
+        flex-direction: column-reverse;
+    }
+    
+
+}
