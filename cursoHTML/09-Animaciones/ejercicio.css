@@ -1,0 +1,18 @@
+
+.btn-modern{
+    padding:10px;
+    position:relative;
+    top:50px;
+    left:50%;
+    border:none;
+}
+
+.btn-modern:hover{
+    transform:translateY(-5px);
+    background-color: mediumseagreen;
+    color:blueviolet;
+    border-bottom:2px solid green;
+    transition:all 0.4s;
+
+}
+
