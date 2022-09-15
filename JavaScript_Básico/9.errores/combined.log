@@ -1,0 +1,13 @@
+{"level":"info","message":"Hola esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es un mensaje de advertencia","service":"user-service"}
+{"level":"error","message":"Esto es un error","service":"user-service"}
+{"level":"info","message":"Hola esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es un mensaje de advertencia","service":"user-service"}
+{"level":"error","message":"Esto es un error","service":"user-service"}
+{"level":"info","message":"Hola esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es un mensaje de advertencia","service":"user-service"}
+{"level":"error","message":"Esto es un error","service":"user-service"}
+{"level":"info","message":"Hola esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es un mensaje de advertencia","service":"user-service"}
+{"level":"error","message":"Esto es un error","service":"user-service"}
+{"level":"error","message":"El valor debe ser de tipo número","service":"user-service"}
